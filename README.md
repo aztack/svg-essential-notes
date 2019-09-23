@@ -13,7 +13,7 @@
   0% | Chapter05. Document Structure
   0% | Chapter06. Transforming the Coordinate System
  80% | Chapter07. Paths
-  0% | Chapter08. Patterns and Gradients
+ 20% | Chapter08. Patterns and Gradients
   0% | Chapter09. Text
   0% | Chapter10. Clipping and Masking
   0% | Chapter11. Filters
