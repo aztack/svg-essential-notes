@@ -10,7 +10,7 @@
 - [100%] Chapter04. Basic Shapes
 - [  0%] Chapter05. Document Structure
 - [  0%] Chapter06. Transforming the Coordinate System
-- [  0%] Chapter07. Paths
+- [ 80%] Chapter07. Paths
 - [  0%] Chapter08. Patterns and Gradients
 - [  0%] Chapter09. Text
 - [  0%] Chapter10. Clipping and Masking
