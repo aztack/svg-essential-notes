@@ -171,13 +171,14 @@ y | 终点y
 # The <mark> element 标记元素
 
 ```html
-<marker id="mStart"
+<defs>
+  <marker id="mStart"
   refX=""
   refY=""
   viewBox=""
   preserveAspectRatio=""
->...</marker>
-
+  >...</marker>
+</defs>
 <path d="..."
   marker-start="url(#mStart)"
   marker-mid="url(#mMid)"
