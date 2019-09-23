@@ -4,20 +4,22 @@
 
 ## 进度
 
-- [  0%] Chapter01. Getting Started
-- [  0%] Chapter02. Using SVG in Web Pages
-- [100%] Chapter03. Coordinates
-- [100%] Chapter04. Basic Shapes
-- [  0%] Chapter05. Document Structure
-- [  0%] Chapter06. Transforming the Coordinate System
-- [ 80%] Chapter07. Paths
-- [  0%] Chapter08. Patterns and Gradients
-- [  0%] Chapter09. Text
-- [  0%] Chapter10. Clipping and Masking
-- [  0%] Chapter11. Filters
-- [  0%] Chapter12. Animating SVG
-- [  0%] Chapter13. Adding Interactivity
-- [  0%] Chapter14. Using the SVG DOM
+进度 | 章节
+---:|:---
+  0% | Chapter01. Getting Started
+  0% | Chapter02. Using SVG in Web Pages
+100% | Chapter03. Coordinates
+100% | Chapter04. Basic Shapes
+  0% | Chapter05. Document Structure
+  0% | Chapter06. Transforming the Coordinate System
+ 80% | Chapter07. Paths
+  0% | Chapter08. Patterns and Gradients
+  0% | Chapter09. Text
+  0% | Chapter10. Clipping and Masking
+  0% | Chapter11. Filters
+  0% | Chapter12. Animating SVG
+  0% | Chapter13. Adding Interactivity
+  0% | Chapter14. Using the SVG DOM
 
 ## 参考资料
 - [Scalable Vector Graphics (SVG) 2, W3C Recommendation 16 August 2011](https://www.w3.org/TR/SVG2)
