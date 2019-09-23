@@ -158,6 +158,9 @@ sweep | 正角为1，负角为0
 x | 终点x
 y | 终点y
 
+![image](https://user-images.githubusercontent.com/782871/65411570-c6aba180-de1f-11e9-8541-bf1ce2f60d55.png)
+
+
 # Converting from Other Arc Formats 从其他弧线格式转换
 略
 
