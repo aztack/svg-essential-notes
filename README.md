@@ -1,4 +1,4 @@
-# 《SVG Essentials 第二版》无责任读书笔记
+# [SVG Essentials 2nd Edition](https://www.amazon.com/SVG-Essentials-Producing-Scalable-Graphics/dp/1449374352)无责任读书笔记
 以目录为纲，只列出必要的、我认为需要记录的知识点。并添加学习中查到的扩展知识点、代码片段等。
 不保证进度、阅读顺序。有问题敬请指正。
 
@@ -7,7 +7,7 @@
 - [  0%] Chapter01. Getting Started
 - [  0%] Chapter02. Using SVG in Web Pages
 - [100%] Chapter03. Coordinates
-- [  0%] Chapter04. Basic Shapes
+- [100%] Chapter04. Basic Shapes
 - [  0%] Chapter05. Document Structure
 - [  0%] Chapter06. Transforming the Coordinate System
 - [  0%] Chapter07. Paths
