@@ -15,7 +15,7 @@
   0% | Chapter05. Document Structure | 文档结构
   0% | Chapter06. Transforming the Coordinate System | 坐标系统变换
  80% | Chapter07. Paths | 路径
- 20% | Chapter08. Patterns and Gradients | 图案和渐变
+ 50% | Chapter08. Patterns and Gradients | 图案和渐变
   0% | Chapter09. Text | 文本
   0% | Chapter10. Clipping and Masking | 裁剪和蒙版
   0% | Chapter11. Filters | 滤镜

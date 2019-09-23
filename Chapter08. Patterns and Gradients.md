@@ -33,9 +33,60 @@ patternUnits = userSpaceOnUse | objectBoundingBox
 
 ## Nested Patterns
 
+```html
+<svg>
+  <defs>
+    <pattern id="p1"></pattern>
+    <pattern id="p2">
+      <circle style="fill: url(#p1)" />
+    </pattern>
+  </defs>
+  <rect style="fill: url(#p2)" />
+</svg>
+```
+
 # Gradients 渐变
 
 ## The linearGradient element
+
+
+```html
+<!-- 默认水平渐变 -->
+<svg>
+  <defs>
+    <linearGradient id="g1">
+      <stop offset="0" stop-color="red" />
+      <stop offset="1" stop-color="green" />
+    </linearGradient>
+
+    <!-- 引用g1并设置渐变方向为水平从左到右。gradientUnits默认是objectBoundingBox -->
+    <linearGradient id="g1-rl" xlink:href="#g1"
+      radientUnits="objectBoundingBox"
+      spreadMethod="pad"
+      x1="100%" y1="0%" x2="0%" y2="0%" />
+  </defs>
+</svg>
+```
+[Stop Color Properties](https://www.w3.org/TR/SVG2/pservers.html#StopColorProperties)
+- stop-color
+- stop-opacity
+
+spreadMethod = pad | reflect | repeat
+
+```css
+<!-- 默认垂直渐变  -->
+.g1 {
+  background-image: linear-gradient(0deg, red 0%, green 100%);
+}
+```
+
+```idl
+[Exposed=Window]
+interface SVGStopElement : SVGElement {
+  [SameObject] readonly attribute SVGAnimatedNumber offset;
+};
+```
+
 ## The radialGradient element
 
 # Transforming Patterns and Gradients
