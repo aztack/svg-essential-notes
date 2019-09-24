@@ -19,7 +19,7 @@
   0% | [Chapter09. Text](Chapter09.Text.md) | 文本
   0% | [Chapter10. Clipping and Masking](Chapter10.Clipping-and-Masking.md) | 裁剪和蒙版
  90% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜
-  0% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画
+ 10% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画
   0% | [Chapter13. Adding Interactivity](Chapter13.Adding-Interactivity.md) | 添加交互
   0% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 生成SVG
 
@@ -27,6 +27,8 @@
 - [Scalable Vector Graphics (SVG) 2, W3C Recommendation 16 August 2011](https://www.w3.org/TR/SVG2)
 - [Scalable Vector Graphics (SVG) 1.1 (Second Edition), W3C Candidate Recommendation 04 October 2018](https://www.w3.org/TR/SVG11/)
 - [An SVG Primer for Today's Browsers](https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html)
+- [SVG Working Group specifications on Github](https://github.com/w3c/svgwg)
+- [SVGWG Issues](https://github.com/w3c/svgwg/issues)
 
 ## SVG相关工具、代码
 

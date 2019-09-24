@@ -137,6 +137,7 @@ SVG1.1: [Accessing the background image](https://www.w3.org/TR/SVG11/filters.htm
 [Filter primitive <feDisplacementMap>](https://www.w3.org/TR/filter-effects/#feDisplacementMapElement)
 
 Photoshop中类似操作。可以制作将某个图案贴合在某个表面的效果。并不是直接叠加，而是根据图片通道信息对图案像素进行一定位移以达到逼真效果。
+
 ![image](https://user-images.githubusercontent.com/782871/65491690-236f9080-dee2-11e9-9134-0f95d1703915.png)
 
 参考：[SVG Filter Effects: Conforming Text to Surface Texture with <feDisplacementMap>](https://tympanus.net/codrops/2019/02/12/svg-filter-effects-conforming-text-to-surface-texture-with-fedisplacementmap/)
