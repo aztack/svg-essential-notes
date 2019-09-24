@@ -18,7 +18,7 @@
 100% | Chapter08. Patterns and Gradients | 图案和渐变
   0% | Chapter09. Text | 文本
   0% | Chapter10. Clipping and Masking | 裁剪和蒙版
-  0% | Chapter11. Filters | 滤镜
+ 90% | Chapter11. Filters | 滤镜
   0% | Chapter12. Animating SVG | SVG动画
   0% | Chapter13. Adding Interactivity | 添加交互
   0% | Chapter14. Using the SVG DOM | 生成SVG
@@ -26,3 +26,25 @@
 ## 参考资料
 - [Scalable Vector Graphics (SVG) 2, W3C Recommendation 16 August 2011](https://www.w3.org/TR/SVG2)
 - [Scalable Vector Graphics (SVG) 1.1 (Second Edition), W3C Candidate Recommendation 04 October 2018](https://www.w3.org/TR/SVG11/)
+- [An SVG Primer for Today's Browsers](https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html)
+
+## SVG相关工具、代码
+
+### SVG创作工具
+- [Adobe Illustrator](https://www.adobe.com/hk_en/products/illustrator/free-trial-download.html)
+- [Sketch](https://www.sketchapp.com/)
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
+- [Inkscape](https://inkscape.org/)
+
+### SVG库
+- [SVG.js](https://svgjs.com/)
+- [Snap.js](http://snapsvg.io/)
+- [Bonsai.js](https://bonsaijs.org/)
+- [Paper.js](http://paperjs.org/)
+- [Raphaël](http://dmitrybaranovskiy.github.io/raphael/)
+- [Two.js](https://two.js.org/)
+
+### SVG优化
+- [SVGO - Node.js tool for optimizing SVG files](https://github.com/svg/svgo)
+- [SVGOMG - Web GUI for SVGO](https://github.com/jakearchibald/svgomg)
+- [Node-WebKit based GUI for SVGO](https://github.com/svg/svgo-gui)
