@@ -89,4 +89,34 @@ interface SVGStopElement : SVGElement {
 
 ## The radialGradient element
 
+[Radial gradients](https://www.w3.org/TR/SVG2/pservers.html#RadialGradients)
+
+```html
+<svg>
+ <defs>
+  <radialGradient id="r1" cx="0%" cy="0%" r="141%">
+    <stop offset="0%" stop-color="#f96" />
+    <stop offset="50%" stop-color="#9c9" />
+    <stop offset="100%" stop-color="#909" />
+  </radialGradient>
+ </defs>
+</svg>
+```
+> 注意：141%= 1.414* 100% = sqr(2) * 100%
+> 这个半径才能正好覆盖一个正方形
+
 # Transforming Patterns and Gradients
+
+[gradientTransform](https://www.w3.org/TR/SVG2/pservers.html#RadialGradientElementGradientTransformAttribute)
+、[patternTransform](https://www.w3.org/TR/SVG2/pservers.html#PatternElementPatternTransformAttribute)
+
+```html
+<linearGradient id="skewed-r" gradientTransform="skewX(10)" xlink:href="#r1">
+</linearGradient>
+
+<pattern id="skewed-pattern" patternTransform="skewX(15)" xlink:href="#p1>
+</pattern>
+```
+
+参考：
+- [Gradient, Stop, Pattern DOM Interface](https://www.w3.org/TR/SVG2/pservers.html#DOMInterfaces)
