@@ -77,14 +77,14 @@
 # Circles and Ellipses 圆形与椭圆形
 略
 
-# The <polygon> Element
+# The \<polygon\> Element
 > 必须偶数个点，用空格或者逗号分隔都可以
 
 polygon的points是`SVGAnimatedPoints`。注意`Animated`
 
 ![SVGAnimatedPoints](https://user-images.githubusercontent.com/782871/65404290-82fa6d00-de0a-11e9-848b-a197dfe98730.png)
 
-# The <polyline> Element
+# The \<polyline\> Element
 
 fill-rule: nonzero | evenodd
 
