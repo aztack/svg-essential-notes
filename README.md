@@ -39,6 +39,9 @@
 - [Sketch](https://www.sketchapp.com/)
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - [Inkscape](https://inkscape.org/)
+- [Xara - Desinger Pro X](https://www.xara.com)
+- [aniGen - SVG Animation Editor](http://anigen.org)
+- [svgator - SVG Animation Creator](https://www.svgator.com/)
 
 ### SVG库
 - [SVG.js](https://svgjs.com/)
