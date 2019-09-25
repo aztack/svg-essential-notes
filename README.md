@@ -40,8 +40,6 @@
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - [Inkscape](https://inkscape.org/)
 - [Xara - Desinger Pro X](https://www.xara.com)
-- [aniGen - SVG Animation Editor](http://anigen.org)
-- [svgator - SVG Animation Creator](https://www.svgator.com/)
 
 ### SVG库
 - [SVG.js](https://svgjs.com/)
@@ -50,6 +48,11 @@
 - [Paper.js](http://paperjs.org/)
 - [Raphaël](http://dmitrybaranovskiy.github.io/raphael/)
 - [Two.js](https://two.js.org/)
+
+### SVG动画制作
+- [Lottie](https://airbnb.io/lottie/) (After Effect + Bodymovin Plugin => SVG Animation)
+- [aniGen - SVG Animation Editor](http://anigen.org)
+- [svgator - SVG Animation Creator](https://www.svgator.com/)
 
 ### SVG优化
 - [SVGO - Node.js tool for optimizing SVG files](https://github.com/svg/svgo)
