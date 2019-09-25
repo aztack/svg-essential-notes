@@ -21,7 +21,7 @@
   0% | [Chapter09. Text](Chapter09.Text.md) | 文本
   0% | [Chapter10. Clipping and Masking](Chapter10.Clipping-and-Masking.md) | 裁剪和蒙版
  90% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜
- 10% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画
+ 90% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画
   0% | [Chapter13. Adding Interactivity](Chapter13.Adding-Interactivity.md) | 添加交互
   0% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 生成SVG
 
