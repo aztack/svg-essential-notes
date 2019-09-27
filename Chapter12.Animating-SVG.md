@@ -1,6 +1,6 @@
 # Animation Basics SVG动画基础
 
-```html
+```xml
 <rect x="10" y="10" width="200" height="20" stroke="black" fill="none">
   <animate attributeName="width" attributeType="XML"
     from="200" to="20" begin="0s" dur="5s" fill="freeze" />
@@ -35,7 +35,7 @@ SVG’s animation clock starts ticking when the SVG has finished loading, and it
 
 通过引用动画的id加上`.start`或`.end`
 
-```html
+```xml
 <circle cx="60" cy="60" r="30" style="fill: #f9f; stroke: gray;">
   <animate id="c1" attributeName="r" attributeType="XML"
       begin="0s" dur="4s" from="30" to="10" fill="freeze"/>
@@ -47,7 +47,7 @@ SVG’s animation clock starts ticking when the SVG has finished loading, and it
 ```
 还可以加上偏移量:`id.start+1.25s`
 
-```html
+```xml
 <circle cx="60" cy="60" r="30" style="fill: #f9f; stroke: gray;">
   <animate id="c1" attributeName="r" attributeType="XML"
     begin="0s" dur="4s" from="30" to="10" fill="freeze"/>
@@ -60,7 +60,7 @@ SVG’s animation clock starts ticking when the SVG has finished loading, and it
 
 # Repeated Action 重复动作
 
-```html
+```xml
 <circle cx="60" cy="60" r="30" style="fill: none; stroke: red;">
   <animate attributeName="cx" attributeType="XML"
     begin="0s" dur="5s" repeatCount="2"
@@ -76,7 +76,7 @@ SVG’s animation clock starts ticking when the SVG has finished loading, and it
 repeatCount和repeatDur哪个先到就用哪个。
 与上面类似，可以在重复几次后在延时几秒执行下一个动画：
 
-```html
+```xml
 <circle cx="60" cy="60" r="15" style="fill: none; stroke: red;">
   <animate id="circleAnim" attributeName="cx" attributeType="XML"
     begin="0s" dur="5s" repeatCount="3"
@@ -94,7 +94,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 > 对于不能插值的属性：参见下面的\<set>
 
 下面将`fill`从red变为blue。
-```html
+```xml
 <svg width="150" height="100">
   <circle cx="60" cy="60" r="30"
     style="fill: #ff9; stroke: gray; stroke-width: 10;">
@@ -106,7 +106,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 </svg>
 ```
 指定颜色空间
-```html
+```xml
 < filter color-interpolation-filters="sRGB | linearRGB" .../>
 ```
 
@@ -115,7 +115,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 通过`values`指定分号分隔的多个值。
 > 这几个值等分在插值过程中？是的，见下节
 
-```html
+```xml
 <svg width="100" height="100">
   <circle cx="50" cy="50" r="30"
     style="fill: #ff9; stroke:black;">
@@ -133,7 +133,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 
 [keySplines = "\<list>"](https://www.w3.org/TR/SVG11/animate.html#KeySplinesAttribute)
 
-```html
+```xml
 <animate ... keyTimes="0;.5;1" calcMode="paced | linear | discrete | spline" keySplines="...">
 ```
 
@@ -141,7 +141,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 
 下面4.5秒后将文字显示出来
 
-```html
+```xml
 <svg width="150" height="100">
   <circle cx="60" cy="60" r="30" style="fill: #ff9; stroke: gray;">
     <animate id="c1" attributeName="r" attributeType="XML"
@@ -160,7 +160,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 
 \<animate>元素并没有提供旋转、平移、缩放、斜切功能。这些功能都用专门的\<animateTransform>元素来实现。
 
-```html
+```xml
 <g transform="translate(100,60)">
   <rect x="-10" y="-10" width="20" height="20" style="fill: #ff9; stroke: black;">
     <animateTransform attributeType="XML" attributeName="transform"
@@ -171,7 +171,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 
 多个\<animateTransform>可以同时使用。注意下面的`additive="sum"`
 [Attributes that control whether animations are additive](https://www.w3.org/TR/SVG11/animate.html#AdditionAttributes)
-```html
+```xml
 <svg width="200" height="100">
   <g transform="translate(100, 60)">
   <rect x="-10" y="-10" width="20" height="20"
@@ -189,7 +189,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 
 # The \<animateMotion> Element \<animateMotion>元素
 简单在两点之间移动
-```html
+```xml
 <svg width="120" height="100" viewBox="0 0 120 100">
   <g>
     <rect x="0" y="0" width="30" height="30" style="fill: #ccc;"/>
@@ -199,7 +199,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 </svg>
 ```
 沿path移动，并垂直曲线。注意`rotate`属性。
-```html
+```xml
 <svg width="250" height="250">
   <!-- show the path along which the triangle will move -->
   <path d="M50,125 C 100,25 150,225, 200, 125"

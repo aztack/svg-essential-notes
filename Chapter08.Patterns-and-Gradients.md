@@ -13,7 +13,7 @@ SVG defines several types of paint servers:
 
 # Patterns 图案
 
-```html
+```xml
 <svg width="" height="">
   <defs>
     <pattern id="id" x="0" y="0" width="" height="" patternUnits="">
@@ -33,7 +33,7 @@ patternUnits = userSpaceOnUse | objectBoundingBox
 
 ## Nested Patterns
 
-```html
+```xml
 <svg>
   <defs>
     <pattern id="p1"></pattern>
@@ -50,7 +50,7 @@ patternUnits = userSpaceOnUse | objectBoundingBox
 ## The linearGradient element
 
 
-```html
+```xml
 <!-- 默认水平渐变 -->
 <svg>
   <defs>
@@ -91,7 +91,7 @@ interface SVGStopElement : SVGElement {
 
 [Radial gradients](https://www.w3.org/TR/SVG2/pservers.html#RadialGradients)
 
-```html
+```xml
 <svg>
  <defs>
   <radialGradient id="r1" cx="0%" cy="0%" r="141%">
@@ -110,7 +110,7 @@ interface SVGStopElement : SVGElement {
 [gradientTransform](https://www.w3.org/TR/SVG2/pservers.html#RadialGradientElementGradientTransformAttribute)
 、[patternTransform](https://www.w3.org/TR/SVG2/pservers.html#PatternElementPatternTransformAttribute)
 
-```html
+```xml
 <linearGradient id="skewed-r" gradientTransform="skewX(10)" xlink:href="#r1">
 </linearGradient>
 

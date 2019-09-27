@@ -68,7 +68,7 @@ Filter primitives can be assembled to achieve a particular filter effect.
 
 这个滤镜允许使用任意jpg、png、svg作为输入源
 
-```html
+```xml
 <svg>
   <defs>
     <filter ...>
@@ -84,7 +84,7 @@ Filter primitives can be assembled to achieve a particular filter effect.
 
 # The \<feComponentTransfer> Filter 分量变换器
 [Filter primitive feComponentTransfer](https://www.w3.org/TR/filter-effects/#feComponentTransferElement)
-```html
+```xml
 <svg>
   <defs>
     <filter ...>

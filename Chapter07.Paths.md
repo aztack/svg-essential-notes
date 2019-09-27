@@ -170,7 +170,7 @@ y | 终点y
 
 # The \<mark\> element 标记元素
 
-```html
+```xml
 <defs>
   <marker id="mStart"
   refX=""
@@ -188,7 +188,7 @@ y | 终点y
 
 # Marker Miscellanea 标记记录
 
-```html
+```xml
 <path d="..."
   marker="url(#mStartMidEnd)"
 />

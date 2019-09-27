@@ -10,7 +10,7 @@
 
 基本写法
 
-```html
+```xml
 <line x1="start-x" y1="start-y" x2="end-x" y2="end-y" />
 <rect x="left-x" y="top-y" width="width" height="height" rx="raidus-x" ry="radius-y"/>
 
