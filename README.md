@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/782871/65561190-2c10a700-df74-11e9-9007-5feff57420e5.png" width="250"/>
 
-# [SVG Essentials 2nd Edition](https://www.amazon.com/SVG-Essentials-Producing-Scalable-Graphics/dp/1449374352) （[SVG精髓](https://item.jd.com/11783868.html)）无责任读书笔记
+# [SVG Essentials 2nd Edition](https://www.amazon.com/SVG-Essentials-Producing-Scalable-Graphics/dp/1449374352) （[SVG精髓](https://item.jd.com/11783868.html)）读书笔记
 
 
 以目录为纲，只列出必要的、我认为需要记录的知识点。并添加学习中查到的扩展知识点、代码片段等。
