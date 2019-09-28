@@ -223,6 +223,23 @@ repeatCount和repeatDur哪个先到就用哪个。
 ## Setting Animation Key Frames
 ## Animating Movement with CSS
 
+# 额外的
+## [DOM interfaces](https://www.w3.org/TR/SVG11/animate.html#DOMInterfaces)
+
+```idl
+interface ElementTimeControl {
+  void beginElement();
+  void beginElementAt(in float offset);
+  void endElement();
+  void endElementAt(in float offset);
+};
+```
+判断是否支持这个接口:
+
+```js
+document.implementation.hasFeature('TimeControl') === true;
+```
+
 参考：
 - [SVG1.1 Animation Spec](https://www.w3.org/TR/SVG11/animate.html)
 - [SMIL Animation Spec](https://www.w3.org/TR/2001/REC-smil-animation-20010904/)

@@ -31,6 +31,7 @@
 - [An SVG Primer for Today's Browsers](https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html)
 - [SVG Working Group specifications on Github](https://github.com/w3c/svgwg)
 - [SVGWG Issues](https://github.com/w3c/svgwg/issues)
+- [Blink/Source/core/svg](https://chromium.googlesource.com/chromium/blink/+/refs/heads/master/Source/core/svg/)
 
 ## SVG相关工具、代码
 
