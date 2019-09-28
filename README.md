@@ -23,7 +23,8 @@
  90% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜
  90% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画
 100% | [Chapter13. Adding Interactivity](Chapter13.Adding-Interactivity.md) | 添加交互
-  0% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 生成SVG
+ 10% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 使用SVG DOM
+  0% | [Chapter15. Generating SVG](Chapter15.Generating-SVG.md) | 生成SVG
 
 ## 参考资料
 - [Scalable Vector Graphics (SVG) 2, W3C Recommendation 16 August 2011](https://www.w3.org/TR/SVG2)

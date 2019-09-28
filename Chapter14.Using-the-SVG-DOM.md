@@ -32,6 +32,11 @@ SVG单位类型：
 
 
 # SVG Interface Methods SVG接口方法
+这节介绍了一些SVG相关的接口、元素的方法。
+对SVG接口、类、类方法的使用和熟悉是一个相对长期的过程和有技巧的事情。
+这里就不罗列接口了。
+从[Blink的SVG源码](https://chromium.googlesource.com/chromium/blink/+/refs/heads/master/Source/core/svg/)中可以查看SVG相关的所有接口和方法。
+然后在SVG规范中搜索相关接口、方法，再结合规范中的例子理解。理解有难度再Google相关教程、代码片段综合起来理解。并将代码和技巧积累起来。
 
 # Constructing SVG with ECMAScript/JavaScript 使用ECMAScript/JavaScript创建SVG
 
