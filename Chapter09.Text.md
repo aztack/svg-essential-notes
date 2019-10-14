@@ -37,6 +37,8 @@
 
 # Text Alignment 文本对齐
 
+`text-anchor: [start | middle | end]`
+
 ```xml
 <svg width="500" height="500" viewBox="0 0 500 500" style="font-size:32px">
   <path d="M 120.5 30, 120.5 120
@@ -49,3 +51,5 @@
   <text x="120" y="110" style="stroke:blue;stroke-width:0.5;text-anchor:end;fill:none">Kpfx</text>
 </svg>
 ```
+
+![image](https://user-images.githubusercontent.com/782871/66727662-389d6680-ee73-11e9-8763-fc004ee33528.png)
