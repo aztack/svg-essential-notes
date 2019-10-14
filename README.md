@@ -18,7 +18,7 @@
   0% | [Chapter06. Transforming the Coordinate System](Chapter06.Transforming-the-Coordinate-System.md) | 坐标系统变换
  80% | [Chapter07. Paths](Chapter07.Paths.md) | 路径
 100% | [Chapter08. Patterns and Gradients](Chapter08.Patterns-and-Gradients.md) | 图案和渐变
-  0% | [Chapter09. Text](Chapter09.Text.md) | 文本
+ 30% | [Chapter09. Text](Chapter09.Text.md) | 文本
   0% | [Chapter10. Clipping and Masking](Chapter10.Clipping-and-Masking.md) | 裁剪和蒙版
  90% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜
  90% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画
