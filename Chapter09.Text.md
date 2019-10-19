@@ -114,6 +114,40 @@ lengthAdjust | 文本调整方式 | lengthAdjust=[spacing | spacingAndGlyphs]
 还可以通过将书写方式改变改为`top-bottom`来旋转文本。
 见上面svg的最后两个text
 
+# Internationalization and Text 国际化和文本
+
+同时设置`direction:rtl`和`unicode-bidi: bidi-override`将文本从右往左显示。
+渲染坐标不变，文本将向左扩展。
+
+参考：
+- [The switch Element](https://www.w3.org/TR/SVG2/struct.html#SwitchElement)
+- [SystemLanguage](https://www.w3.org/TR/SVG2/struct.html#ConditionalProcessingSystemLanguageAttribute)
+
+> The `switch` element evaluates the `requiredExtensions` and `systemLanguage` attributes on its direct child elements in order, and then processes and renders __*the first child for which these attributes evaluate to true*__. All others will be bypassed and therefore not rendered. If the child element is a container element such as a ‘g’, then the entire subtree is either processed/rendered or bypassed/not rendered.
+
+```svg
+<svg width="100%" height="500">
+  <text x=200 y=20 style="direction:rtl;unicode-bidi:bidi-override;">世界大同Hello World!</text>
+</svg>
+ ```
+
+ ![image](https://user-images.githubusercontent.com/782871/67139148-560d6e80-f27f-11e9-822e-1772e687bf6d.png)
+
+```svg
+<svg width="100%" height="500">
+  <switch>
+    <text x=100 y=40 systemLanguage="zh-CN"
+      style="direction:rtl;unicode-bidi:bidi-override;">世界你好!</text>
+    <text x=100 y=40 systemLanguage="en">Hello World!</text>
+  </switch>
+</svg>
+```
+简体中文系统下英文部分没有显示：
+
+![image](https://user-images.githubusercontent.com/782871/67139259-b650e000-f280-11e9-822c-c81e442ece79.png)
+
+
+
 参考: 
 - [Text Element](https://www.w3.org/TR/SVG2/text.html#TextElement)
 - [SVG Text properties adaptions](https://www.w3.org/TR/SVG2/text.html#TextPropertiesAdaptions)
