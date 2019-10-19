@@ -53,3 +53,67 @@
 ```
 
 ![image](https://user-images.githubusercontent.com/782871/66727662-389d6680-ee73-11e9-8763-fc004ee33528.png)
+
+# [The \<tspan> Element \<tspan>元素](https://www.w3.org/TR/SVG2/text.html#TSpanNotes)
+由于文本内容是千变万化的。当你想为其中一部分文字设置不同的样式时，需要将这部分文字单独用text标签括起来。此时就需要设置文本的`x`,`y`坐标。但是文本内容是变化的，你无法确定。
+
+此时引入`<tspan>`标签。类比HTML中的`<span>`标签。
+
+tspan属性 | 含义 | 举例
+---|---|---
+x | 横坐标 | x="10"
+y | 纵坐标 | y="100"
+dx | 横坐标增量 | dx="10" dx="10 -10 10"
+dy | 纵坐标增量 | yx="10" yx="10 -10 10"
+rotate | 旋转 | rotate="90 -90"
+
+# Settting `textLength` 设置文本长度
+
+可以通过设置`text`的`textLength`属性来设置文本的最大宽度。当内容超出或小于宽度时浏览器自动适应。
+
+tspan属性 | 含义 | 举例
+---|---|---
+textLength | 文本宽度 | textLength="100"
+lengthAdjust | 文本调整方式 | lengthAdjust=[spacing | spacingAndGlyphs]
+
+```svg
+<svg width="100%" height="500">
+  <text x="10" y="30" style="font-size:12pt;">Switch among 
+    <tspan style="font-style:italic" dy="10">italic</tspan>, normal, and
+    <tspan style="font-weight:bold; baseline-shift:super;">bold</tspan> ext. 
+  </text>
+  <text x="10" y="60" style="font-size:24px">
+    W<tspan dy="10">a</tspan><tspan dy="-10">v</tspan><tspan dy="10">e</tspan>
+  </text>
+  <text x="10" y="100" style="font-size:24px">
+    <tspan dy="0 10 -10 10">Wave</tspan>
+  </text>
+  <text x="10" y="140" style="font-size:24px">
+    <tspan rotate="90 0 90 0">Wave</tspan>
+  </text>
+  <text x="10" y="180" textLength="200" lengthAdjust="spacing" style="font-size:24px">
+    Short words
+  </text>
+  <text x="10" y="200" textLength="200" lengthAdjust="spacingAndGlyphs" style="font-size:24px">
+    Short words
+  </text>
+  <text x="10" y="200" style="font-size:24px" writing-mode="tb">
+     Short words
+  </text>
+  <text x="50" y="200" style="font-size:24px;transform-origin: 50px 200px;" transform="rotate(90)">
+    Short words
+  </text>
+</svg>
+```
+![image](https://user-images.githubusercontent.com/782871/67135702-fd25e200-f24e-11e9-9762-b554faec57be.png)
+
+
+# Vertical Text 纵向文本
+
+可以通过svg的`transform:rotate(90)`将文本旋转。
+还可以通过将书写方式改变改为`top-bottom`来旋转文本。
+见上面svg的最后两个text
+
+参考: 
+- [Text Element](https://www.w3.org/TR/SVG2/text.html#TextElement)
+- [SVG Text properties adaptions](https://www.w3.org/TR/SVG2/text.html#TextPropertiesAdaptions)
