@@ -197,6 +197,9 @@ lengthAdjust | 文本调整方式 | lengthAdjust=[spacing | spacingAndGlyphs]
 
 这个属性已经废弃。建议使用`white-space`。
 
+# Case Study: Adding Text Graphics
+略
+
 参考: 
 - [Text Element](https://www.w3.org/TR/SVG2/text.html#TextElement)
 - [SVG Text properties adaptions](https://www.w3.org/TR/SVG2/text.html#TextPropertiesAdaptions)
