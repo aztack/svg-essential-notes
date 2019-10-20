@@ -187,7 +187,7 @@ lengthAdjust | 文本调整方式 | lengthAdjust=[spacing | spacingAndGlyphs]
 ```
 ![animate-startOffset](https://user-images.githubusercontent.com/782871/67153847-552e1880-f323-11e9-9709-a9b17ebed5e6.gif)
 
-# 9.9 Whitespace and Text 空白和文本
+# Whitespace and Text 空白和文本
 
 参考：[The xml:space attribute](https://www.w3.org/TR/SVG2/struct.html#WhitespaceProcessingXMLSpaceAttribute)
 
