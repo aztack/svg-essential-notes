@@ -1,4 +1,6 @@
-本章中的多数内容在Photoshop这类图像处理软件中都能找到对应工具
+本章中的多数内容在Photoshop这类图像处理软件中都能找到对应工具、滤镜。
+使用滤镜更像是画家作画。你先需要构思想要的效果。然后使用各种滤镜达到目的。
+下面我不罗列各个滤镜的参数，会不断添加使用各种滤镜的例子。
 
 [Filter Effects Module Level 1](https://www.w3.org/TR/filter-effects/)
 滤镜效果是一个单独的Module。滤镜标签的前缀`fe`=`filter effect`
@@ -145,6 +147,8 @@ Photoshop中类似操作。可以制作将某个图案贴合在某个表面的�
 # The \<feTurbulence\> Element
 [Filter primitive <feTurbulence>](https://www.w3.org/TR/filter-effects/#feTurbulenceElement)
 允许我们通过使用由 Ken Perlin 开发的方程，生成大理石、云彩等人 工纹理效果。这个方程被称作 [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
+
+例子：[水波效果](sample/water-effect/index.html)
 
 # Filter Reference Summary
 

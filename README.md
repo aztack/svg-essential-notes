@@ -20,8 +20,8 @@
 100% | [Chapter08. Patterns and Gradients](Chapter08.Patterns-and-Gradients.md) | 图案和渐变
  90% | [Chapter09. Text](Chapter09.Text.md) | 文本
   0% | [Chapter10. Clipping and Masking](Chapter10.Clipping-and-Masking.md) | 裁剪和蒙版
- 90% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜
- 90% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画
+100% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜(持续添加例子)
+100% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画(持续添加例子)
 100% | [Chapter13. Adding Interactivity](Chapter13.Adding-Interactivity.md) | 添加交互
  10% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 使用SVG DOM
   0% | [Chapter15. Generating SVG](Chapter15.Generating-SVG.md) | 生成SVG
