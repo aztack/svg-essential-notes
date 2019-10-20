@@ -146,7 +146,56 @@ lengthAdjust | 文本调整方式 | lengthAdjust=[spacing | spacingAndGlyphs]
 
 ![image](https://user-images.githubusercontent.com/782871/67139259-b650e000-f280-11e9-822c-c81e442ece79.png)
 
+# Text Path 文本路径
 
+在SVG中文本需要指定坐标才能显示。文字默认沿着水平方向从左到右排列。
+通过改变direction和unicode-bidi可以让文字从右到左排列。
+不仅如此，文字还可以沿着给定的曲线排列：
+
+```svg
+<svg width="400" height="200">
+  <defs>
+    <!-- 1.创建曲线 -->
+    <path id="curvepath"
+      d="M30 40 C 50 10, 70 10, 120 40 S 150 0, 200 40"
+      style="stroke: gray; fill: none;"/>
+  </defs>
+  <g>
+    <!-- 参考线 -->
+    <use xlink:href="#curvepath"/>
+  </g>
+  <text style="font-family: 'Liberation Sans'; font-size: 10pt;">
+    <!-- 2.用<textPath>包围文字，通过xlink:href引用第一步中的曲线 -->
+    <textPath xlink:href="#curvepath">Following a cubic Bézier curve.</textPath>
+  </text>
+</svg>
+```
+![image](https://user-images.githubusercontent.com/782871/67153644-a0462c80-f31f-11e9-893f-52fd1ae0894f.png)
+
+你还可以设置文字起始位置`<textPath startOffset="50%">`。
+
+在`<textPath>中放置<animate>可以为文字路径增加动画`
+
+```svg
+<text style="font-family: 'Liberation Sans'; font-size: 10pt;">
+    <!-- 2.用<textPath>包围文字，通过xlink:href引用第一步中的曲线 -->
+    <textPath id="text-path" startOffset="10%" xlink:href="#curvepath">
+      Following a cubic Bézier curve.
+      <animate attributeName="startOffset" keyTimes="0;1" values="0;100%" dur="5s" repeatCount="indefinite" />
+    </textPath>
+  </text>
+```
+![animate-startOffset](https://user-images.githubusercontent.com/782871/67153847-552e1880-f323-11e9-9709-a9b17ebed5e6.gif)
+
+# 9.9 Whitespace and Text 空白和文本
+
+参考：[The xml:space attribute](https://www.w3.org/TR/SVG2/struct.html#WhitespaceProcessingXMLSpaceAttribute)
+
+> Deprecated XML attribute to specify whether white space is preserved in character data. The only possible values are the strings 'default' and 'preserve', without white space. Refer to the Extensible Markup Language (XML) 1.0 Recommendation [xml] and to the discussion white space handling in SVG.
+
+>New content should use the white-space property instead.
+
+这个属性已经废弃。建议使用`white-space`。
 
 参考: 
 - [Text Element](https://www.w3.org/TR/SVG2/text.html#TextElement)
