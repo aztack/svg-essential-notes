@@ -14,7 +14,7 @@
   0% | [Chapter02. Using SVG in Web Pages](Chapter02.Using-SVG-in-Web-Pages.md) | 在网页中使用SVG
 100% | [Chapter03. Coordinates](Chapter03.Coordinates.md) | 坐标系统
 100% | [Chapter04. Basic Shapes](Chapter04.Basic-Shapes.md) | 基本形状
-  0% | [Chapter05. Document Structure](Chapter05.Document-Structure.md) | 文档结构
+100% | [Chapter05. Document Structure](Chapter05.Document-Structure.md) | 文档结构
   0% | [Chapter06. Transforming the Coordinate System](Chapter06.Transforming-the-Coordinate-System.md) | 坐标系统变换
  80% | [Chapter07. Paths](Chapter07.Paths.md) | 路径
 100% | [Chapter08. Patterns and Gradients](Chapter08.Patterns-and-Gradients.md) | 图案和渐变
