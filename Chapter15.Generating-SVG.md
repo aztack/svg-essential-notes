@@ -4,7 +4,7 @@
 可以参考一些生成SVG的库是如何使用SVG元素的。
 比如：[Mermaid Graph](https://github.com/mermaid-js/mermaid)
 
-# Converting Custom Data to SVG 将自定义数据转换为SVG
+# Converting Custom Data to SVG (将自定义数据转换为SVG)
 略
-# Using XSLT to Convert XML Data to SVG 使用XSLT将XML数据转换为SVG
+# Using XSLT to Convert XML Data to SVG (使用XSLT将XML数据转换为SVG)
 略

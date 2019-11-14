@@ -11,7 +11,7 @@ SVG defines several types of paint servers:
 2. [Patterns](https://www.w3.org/TR/SVG2/pservers.html#Patterns)
 
 
-# Patterns 图案
+# Patterns (图案)
 
 ```xml
 <svg width="" height="">
@@ -45,7 +45,7 @@ patternUnits = userSpaceOnUse | objectBoundingBox
 </svg>
 ```
 
-# Gradients 渐变
+# Gradients (渐变)
 
 ## The linearGradient element
 
@@ -105,7 +105,7 @@ interface SVGStopElement : SVGElement {
 > 注意：141%= 1.414* 100% = sqr(2) * 100%
 > 这个半径才能正好覆盖一个正方形
 
-# Transforming Patterns and Gradients
+# Transforming Patterns and Gradients (变换图案与渐变)
 
 [gradientTransform](https://www.w3.org/TR/SVG2/pservers.html#RadialGradientElementGradientTransformAttribute)
 、[patternTransform](https://www.w3.org/TR/SVG2/pservers.html#PatternElementPatternTransformAttribute)

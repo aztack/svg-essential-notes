@@ -1,4 +1,4 @@
-# Animation Basics SVG动画基础
+# Animation Basics (SVG动画基础)
 
 ```xml
 <rect x="10" y="10" width="200" height="20" stroke="black" fill="none">
@@ -21,7 +21,7 @@ style="stroke: black; fill: green; style: fill-opacity: 0.25;">
 </rect>
 ```
 
-# How Time Is Measured SVG中如何计时？
+# How Time Is Measured (SVG中如何计时？)
 
 SVG’s animation clock starts ticking when the SVG has finished loading, and it stops ticking when the user leaves the page
 > SVG片段加载结束后开始计时。用户离开页面停止计时。
@@ -58,7 +58,7 @@ SVG’s animation clock starts ticking when the SVG has finished loading, and it
 </circle>
 ```
 
-# Repeated Action 重复动作
+# Repeated Action (重复动作)
 
 ```xml
 <circle cx="60" cy="60" r="30" style="fill: none; stroke: red;">
@@ -89,7 +89,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 </rect>
 ```
 
-# Animating Complex Attributes 对复杂属性的动画
+# Animating Complex Attributes (对复杂属性的动画)
 > 只要可插值的属性都可以做动画。颜色是由数值表示的，自然可以插值做动画。
 > 对于不能插值的属性：参见下面的\<set>
 
@@ -110,7 +110,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 < filter color-interpolation-filters="sRGB | linearRGB" .../>
 ```
 
-# Specifying Multiple Values 指定多个值
+# Specifying Multiple Values (指定多个值)
 
 通过`values`指定分号分隔的多个值。
 > 这几个值等分在插值过程中？是的，见下节
@@ -126,7 +126,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 </svg>
 ```
 
-# Timing of Multistage Animations 多阶段动画的时间设定
+# Timing of Multistage Animations (多阶段动画的时间设定)
 [keyTimes = "\<list>"](https://www.w3.org/TR/SVG11/animate.html#KeyTimesAttribute)
 
 [calcMode = "discrete | linear | paced | spline"](https://www.w3.org/TR/SVG11/animate.html#CalcModeAttribute)
@@ -137,7 +137,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 <animate ... keyTimes="0;.5;1" calcMode="paced | linear | discrete | spline" keySplines="...">
 ```
 
-# The \<set> Element \<set>元素
+# The \<set> Element (\<set>元素)
 
 下面4.5秒后将文字显示出来
 
@@ -187,7 +187,7 @@ repeatCount和repeatDur哪个先到就用哪个。
 </svg>
 ```
 
-# The \<animateMotion> Element \<animateMotion>元素
+# The \<animateMotion> (Element \<animateMotion>元素)
 简单在两点之间移动
 ```xml
 <svg width="120" height="100" viewBox="0 0 120 100">
@@ -216,7 +216,7 @@ repeatCount和repeatDur哪个先到就用哪个。
   </path>
 </svg>
 ```
-# Specifying Key Points and Times for Motion 为动作指定关键点和时间
+# Specifying Key Points and Times for Motion (为动作指定关键点和时间)
 略
 # Animating SVG with CSS
 ## Animation Properties

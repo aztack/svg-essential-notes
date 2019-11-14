@@ -144,7 +144,7 @@ S s | x2 y2 x y
 # Path Shortcuts 路径的快捷写法
 略。见上面总结
 
-# Elliptical Arc 椭圆弧
+# Elliptical Arc (椭圆弧)
 
 绘制椭圆弧需要众多参数：
 
@@ -161,14 +161,14 @@ y | 终点y
 ![image](https://user-images.githubusercontent.com/782871/65411570-c6aba180-de1f-11e9-8541-bf1ce2f60d55.png)
 
 
-# Converting from Other Arc Formats 从其他弧线格式转换
+# Converting from Other Arc Formats (从其他弧线格式转换)
 略
 
-# Bezier Curves 贝塞尔曲线
+# Bezier Curves (贝塞尔曲线)
 
-# Paths and Filling 路径和填充
+# Paths and Filling (路径和填充)
 
-# The \<mark\> element 标记元素
+# The \<mark\> element (标记元素)
 
 ```xml
 <defs>
@@ -186,7 +186,7 @@ y | 终点y
 />
 ```
 
-# Marker Miscellanea 标记记录
+# Marker Miscellanea (标记记录)
 
 ```xml
 <path d="..."

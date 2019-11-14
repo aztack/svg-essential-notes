@@ -1,4 +1,4 @@
-# Text Terminology 文本相关术语
+# Text Terminology (文本相关术语)
 
 - Character 字符：a byte or bytes with a numeric value according to Unicode Standard 内存中的一个或多个字节，在Unicode中代表具体含义
 - Glyph 符号: 字符的具象形态
@@ -35,7 +35,7 @@
 以下样式与CSS相同，可以在样式中指定：
 `font-family`,`font-size`,`font-weight`,`font-style`,`text-decoration`,`word-spacing`,`letter-spacing`等等。
 
-# Text Alignment 文本对齐
+# Text Alignment (文本对齐)
 
 `text-anchor: [start | middle | end]`
 

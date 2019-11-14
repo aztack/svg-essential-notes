@@ -47,23 +47,23 @@
 <li>Interface SVGFETurbulenceElement</li>
 </ul></p></details>
 
-# How Filters Work 滤镜的工作原理
+# How Filters Work (滤镜的工作原理)
 Filter primitives can be assembled to achieve a particular filter effect.
 > SVG滤镜是通过将一组滤镜基元（filter primitives）组合起来达到某种滤镜效果。
 
-# Creating a Drop Shadow
+# Creating a Drop Shadow (创建投影)
 [Filter primitive <feDropShadow>](https://www.w3.org/TR/filter-effects/#feDropShadowElement)
 ## Establishing the Filter's Bounds
 ## Using <feGaussianBlur> for a Drop Shadow
 [Filter primitive <feGaussianBlur>](https://www.w3.org/TR/filter-effects/#feGaussianBlurElement)
 ## Stroing, Chaning, and Merging Filter Results
 
-# Creating a Glowing Filters
+# Creating a Glowing Filters (创建发光滤镜)
 ## The <feColorMatrix> Element
 [Filter primitive <feColorMatrix>](https://www.w3.org/TR/filter-effects/#feColorMatrixElement)
 ## More About the <feColorMatrix> Element
 
-# The <feImage> Filter
+# The <feImage> Filter (feImage滤镜)
 [Filter primitive <feImage>](https://www.w3.org/TR/filter-effects/#feImageElement)
 
 [Filter primitive <feMerge>](https://www.w3.org/TR/filter-effects/#feMergeElement)
@@ -84,7 +84,7 @@ Filter primitives can be assembled to achieve a particular filter effect.
 </svg>
 ```
 
-# The \<feComponentTransfer> Filter 分量变换器
+# The \<feComponentTransfer> Filter (分量变换器)
 [Filter primitive feComponentTransfer](https://www.w3.org/TR/filter-effects/#feComponentTransferElement)
 ```xml
 <svg>
@@ -118,7 +118,7 @@ operator = "over | in | out | atop | xor | lighter | arithmetic"
 
 类似Photoshop的填充：可以填充纯色和图案
 
-# Lighting Effects
+# Lighting Effects (光照效果)
 ## Diffuse Lighting
 [Filter primitive <feDiffuseLighting>](https://www.w3.org/TR/filter-effects/#feDiffuseLightingElement)
 ## Specular Lighting
@@ -148,9 +148,10 @@ Photoshop中类似操作。可以制作将某个图案贴合在某个表面的�
 [Filter primitive <feTurbulence>](https://www.w3.org/TR/filter-effects/#feTurbulenceElement)
 允许我们通过使用由 Ken Perlin 开发的方程，生成大理石、云彩等人 工纹理效果。这个方程被称作 [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise)
 
+<<<<<<< HEAD
 例子：[水波效果](sample/water-effect/index.html)
 
-# Filter Reference Summary
+# Filter Reference Summary (小结)
 
 参考：
 - [Light source elements and properties](https://www.w3.org/TR/filter-effects/#LightSourceDefinitions)

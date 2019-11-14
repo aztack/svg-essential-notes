@@ -133,7 +133,7 @@ CDATA 部分由 "\<![CDATA[" 开始，由 "]]>" 结束
  el.style['backgroundColor'] = 'red';
 ```
 
-## Events: An Overview
+## Events: An Overview (Event:概览)
 
 [SVG Events](https://www.w3.org/TR/SVG/interact.html#SVGEvents)与`UI Events`的关系：
 

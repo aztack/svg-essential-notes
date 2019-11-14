@@ -1,6 +1,6 @@
 - SVG是在一个无限大的画布上作图
 
-# The Viewport 视口
+# The Viewport (视口)
 
 `<svg width="?" height="?">` 通过`width`,`height`指定svg元素在文档中的宽高。
 
@@ -29,7 +29,7 @@
 2. 外层有svg（即嵌套svg）时，是相对外层svg的宽高
 
 
-# Using Default User Coordinates 默认用户坐标系
+# Using Default User Coordinates (默认用户坐标系)
 
 - svg坐标系统是一个纯集合系统：点没有宽高；线没有宽度
 - svg坐标系是一个x轴正方向为右，y轴正方向为下的**直角坐标系**
@@ -38,7 +38,7 @@
 > 有时候甚至不会触发重绘。[Performance impact of SVG/SMIL reflow/repaint?
 ](https://stackoverflow.com/questions/24622003/performance-impact-of-svg-smil-reflow-repaint)
 
-# Specifying User Coordinates for a Viewport 为视口指定用户坐标系
+# Specifying User Coordinates for a Viewport (为视口指定用户坐标系)
 
 [The ‘viewBox’ attribute](https://www.w3.org/TR/SVG2/coords.html#ViewBoxAttribute)
 
@@ -51,7 +51,7 @@ viewBox	| \[<min-x\>,? \<min-y\>,? \<width\>,? \<height\>] |  As if not specifie
 - `viewBox`的单位取svg宽高
 - `viewBox`不能写成`viewbox`，这会导致svg无法显示。参见[SVG's viewBox is set to lowercase](https://github.com/ionic-team/stencil/issues/1847)
 
-# Preserving Aspect Ratio 保持宽高比
+# Preserving Aspect Ratio (保持宽高比)
 
 [The ‘preserveAspectRatio’ attribute](https://www.w3.org/TR/SVG2/coords.html#PreserveAspectRatioAttribute)
 
@@ -74,4 +74,4 @@ preserveAspectRatio	| \<align\> \<meetOrSlice\>?| xMidYMid meet | yes
 - slice=充满并切割
 - none=不保持横纵比，会使图像拉伸
 
-# Nested Systems of Coordinates 坐标系嵌套
+# Nested Systems of Coordinates (坐标系嵌套)
