@@ -51,6 +51,7 @@
 - [Raphaël](http://dmitrybaranovskiy.github.io/raphael/)
 - [Two.js](https://two.js.org/)
 - [Mermaid Graph](https://github.com/mermaid-js/mermaid)
+- [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor)
 
 ### SVG动画制作
 - [Lottie](https://airbnb.io/lottie/) (After Effect + Bodymovin Plugin => SVG Animation)
