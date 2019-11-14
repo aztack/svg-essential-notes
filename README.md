@@ -23,8 +23,8 @@
 100% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜(持续添加例子)
 100% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画(持续添加例子)
 100% | [Chapter13. Adding Interactivity](Chapter13.Adding-Interactivity.md) | 添加交互
- 100% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 使用SVG DOM
-  0% | [Chapter15. Generating SVG](Chapter15.Generating-SVG.md) | 生成SVG
+100% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 使用SVG DOM
+100% | [Chapter15. Generating SVG](Chapter15.Generating-SVG.md) | 生成SVG
 
 ## 参考资料
 - [Scalable Vector Graphics (SVG) 2, W3C Recommendation 16 August 2011](https://www.w3.org/TR/SVG2)
@@ -50,6 +50,7 @@
 - [Paper.js](http://paperjs.org/)
 - [Raphaël](http://dmitrybaranovskiy.github.io/raphael/)
 - [Two.js](https://two.js.org/)
+- [Mermaid Graph](https://github.com/mermaid-js/mermaid)
 
 ### SVG动画制作
 - [Lottie](https://airbnb.io/lottie/) (After Effect + Bodymovin Plugin => SVG Animation)
