@@ -23,7 +23,7 @@
 100% | [Chapter11. Filters](Chapter11.Filters.md) | 滤镜(持续添加例子)
 100% | [Chapter12. Animating SVG](Chapter12.Animating-SVG.md) | SVG动画(持续添加例子)
 100% | [Chapter13. Adding Interactivity](Chapter13.Adding-Interactivity.md) | 添加交互
- 10% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 使用SVG DOM
+ 100% | [Chapter14. Using the SVG DOM](Chapter14.Using-the-SVG-DOM.md) | 使用SVG DOM
   0% | [Chapter15. Generating SVG](Chapter15.Generating-SVG.md) | 生成SVG
 
 ## 参考资料
@@ -41,7 +41,7 @@
 - [Sketch](https://www.sketchapp.com/)
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - [Inkscape](https://inkscape.org/)
-- [Xara - Desinger Pro X](https://www.xara.com)
+- [Xara - Designer Pro X](https://www.xara.com)
 
 ### SVG库
 - [SVG.js](https://svgjs.com/)
