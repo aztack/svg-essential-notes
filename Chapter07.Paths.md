@@ -165,6 +165,14 @@ y | 终点y
 略
 
 # Bezier Curves (贝塞尔曲线)
+雷诺汽车工程师皮埃尔·雷诺和雪铁龙数学家Paul de Casteljau开发的计算简便的生成曲线的方法。
+
+控制点和曲线 关系的方式:想象一下线是由柔性金属制造的。控制点内部是一个磁铁，与控制点越近， 吸引力越强。
+
+## Quadratic Bézier Curves (二次贝塞尔曲线)
+[贝塞尔曲线原理(实现图真漂亮)](https://www.jianshu.com/p/8f82db9556d2)
+
+## Cubic Bézier Curves (三次贝塞尔曲线)
 
 # Paths and Filling (路径和填充)
 
