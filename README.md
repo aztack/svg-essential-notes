@@ -42,6 +42,7 @@
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - [Inkscape](https://inkscape.org/)
 - [Xara - Designer Pro X](https://www.xara.com)
+- [js2flowchart live editor](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html)
 
 ### SVG库
 - [SVG.js](https://svgjs.com/)
